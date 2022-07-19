@@ -80,21 +80,21 @@ const Citizenship = () => {
             <div>
               <h2 className='text-white text-2xl font-extrabold'>OG</h2>
               <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.85</h2>
+                <h2 className='text-third font-extrabold'>0.9</h2>
                 <Image src={EthereumIcon} width={16} height={20} />
               </div>
             </div>
             <div>
               <h2 className='text-white text-2xl font-extrabold'>WHITELIST</h2>
               <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.9</h2>
+                <h2 className='text-third font-extrabold'>0.99</h2>
                 <Image src={EthereumIcon} width={16} height={20} />
               </div>
             </div>
             <div>
               <h2 className='text-white text-2xl font-extrabold'>EARLY bird</h2>
               <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.85</h2>
+                <h2 className='text-third font-extrabold'>0.9</h2>
                 <Image src={EthereumIcon} width={16} height={20} />
               </div>
             </div>

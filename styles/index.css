@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+  background: linear-gradient(
+      270deg,
+      #f9cd6d 0%,
+      rgba(255, 113, 67, 0.6) 47.92%,
+      rgba(249, 205, 109, 0) 100%
+    ),
+    #ffaf00;
+}
+
+.marquee {
+  margin-right: 8px;
+}
+
+.marquee-container .overlay {
+  display: none;
+}

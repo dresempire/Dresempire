@@ -1,8 +1,8 @@
-import OG_MERKLE from "../merkle/og_.json";
-import EARLY_MERKLE from "../merkle/early_.json";
-import VIP_MERKLE from "../merkle/vip_.json";
-import WAITLIST_MERKLE from "../merkle/waitlist_.json";
-import WHITELIST_MERKLE from "../merkle/whitelist_.json";
+import OG_MERKLE from "../merkle/og.json";
+import EARLY_MERKLE from "../merkle/early.json";
+import VIP_MERKLE from "../merkle/vip.json";
+import WAITLIST_MERKLE from "../merkle/waitlist.json";
+import WHITELIST_MERKLE from "../merkle/whitelist.json";
 
 export const ADDRESSES = {
   1: {

@@ -7,9 +7,9 @@ import WHITELIST_MERKLE from "../merkle/whitelist_.json";
 export const ADDRESSES = {
   1: {
     citizenshipNft: "0x8BaBDaf7F6eeaB0cF12750F5f4cf894Bc9DADD7c",
-    citizenshipMinter: "0x6C89Ec1999c07f6552A3F9E0da52e95AfD5523e4",
+    citizenshipMinter: "0x51B811270Ae5FA1a378f08a37FA6ce08400c42E4",
     vipNft: "0x0D755ee09864ac3370C77155c71A5525D5001629",
-    vipMinter: "0x58ee6D02Ff313CEb8Dc4468d081C93187505110e",
+    vipMinter: "0x9BF4B647150Ccb540ac4F1E528498591a168deD8",
   },
   4: {
     citizenshipNft: "0x9C1015FB9746b19C84F68C630cE7Ce6F3F1D77Df",

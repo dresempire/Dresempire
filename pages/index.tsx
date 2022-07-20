@@ -182,7 +182,7 @@ const Home = () => {
               MINT dre’s empire
             </h1>
             <h2 className='text-white mt-1 text-[2rem] text-center'>
-              JULY 17, 12 PM EST
+              JULY 22, 9 am EST
             </h2>
             <div className='mt-20 mx-auto flex lg:flex-row flex-col gap-20 justify-center'>
               <div className='flex flex-col items-center justify-center'>
@@ -197,7 +197,7 @@ const Home = () => {
                   OG MINT
                 </div>
                 <div className='text-center text-white font-extrabold text-base leading-9'>
-                  07/17/22 12:00:00
+                  07/22/22 9:00:00
                 </div>
                 <div className='text-center text-third font-extrabold text-base leading-9'>
                   OG MINT
@@ -215,7 +215,7 @@ const Home = () => {
                   OG MINT
                 </div>
                 <div className='text-center text-white font-extrabold text-base leading-9'>
-                  07/17/22 12:00:00
+                  07/22/22 9:00:00
                 </div>
                 <div className='text-center text-third font-extrabold text-base leading-9'>
                   OG MINT

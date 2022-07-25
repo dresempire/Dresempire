@@ -180,11 +180,11 @@ const Home = () => {
         <div className='max-w-[90rem] m-auto'>
           <div className='lg:w-[50rem] m-auto'>
             <h1 className='text-5xl text-third font-extrabold mb-6 uppercase text-center'>
-              MINT dre’s empire
+              PUBLIC SALE
             </h1>
-            <h2 className='text-white mt-1 text-[2rem] text-center'>
+            {/* <h2 className='text-white mt-1 text-[2rem] text-center'>
               JULY 22, 9 am EST
-            </h2>
+            </h2> */}
             <div className='mt-20 mx-auto flex lg:flex-row flex-col gap-20 justify-center'>
               <div className='flex flex-col items-center justify-center'>
                 <Image src={CitizenShipPass} width={300} height={234} />
@@ -194,13 +194,13 @@ const Home = () => {
                   className='mt-5'
                   onClick={() => router.push("citizenship")}
                 />
-                <div className='mt-5 text-center text-white font-extrabold text-base leading-9'>
+                {/* <div className='mt-5 text-center text-white font-extrabold text-base leading-9 invisible'>
                   PUBLIC
                 </div>
-                <div className='text-center text-white font-extrabold text-base leading-9'>
-                  07/22/22 9:00:00
-                </div>
-                <div className='text-center text-third font-extrabold text-base leading-9 flex items-center'>
+                <div className='text-center text-white font-extrabold text-base leading-9 invisible'>
+                  00/00/22 00:00:00
+                </div> */}
+                <div className='mt-4 text-center text-third font-extrabold text-base leading-9 flex items-center'>
                   PUBLIC &nbsp;
                   <div className='flex gap-2'>
                     <h2 className='text-third font-extrabold'>0.4</h2>
@@ -208,7 +208,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center'>
                 <Image src={VIPPass} width={300} height={234} />
                 <Button
                   label='MINT VIP PASS'
@@ -216,15 +216,15 @@ const Home = () => {
                   className='mt-5'
                   onClick={() => router.push("vip")}
                 />
-                <div className='mt-5 text-center text-white font-extrabold text-base leading-9'>
+                {/* <div className='mt-5 text-center text-white font-extrabold text-base leading-9 invisible'>
                   OG MINT
                 </div>
-                <div className='text-center text-white font-extrabold text-base leading-9'>
+                <div className='text-center text-white font-extrabold text-base leading-9 invisible'>
                   07/22/22 9:00:00
                 </div>
-                <div className='text-center text-third font-extrabold text-base leading-9'>
+                <div className='text-center text-third font-extrabold text-base leading-9 invisible'>
                   OG MINT
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='mt-20'>

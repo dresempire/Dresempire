@@ -44,14 +44,14 @@ const Citizenship = () => {
       const mintFee = await contract.mintingFee();
       const mintRound = await contract.mintRound();
 
-      const proofs = MERKLE[mintRound].proofs.find(
-        p => p.address.toLowerCase() === account.toLowerCase()
-      );
+      // const proofs = MERKLE[mintRound].proofs.find(
+      //   p => p.address.toLowerCase() === account.toLowerCase()
+      // );
       // if (!proofs) {
       //   alert("Not whitelisted");
       //   return;
       // }
-      const proof = proofs.proofs.split(",");
+      // const proof = proofs.proofs.split(",");
       const tx = await contract.mint([], { value: mintFee });
       await tx.wait();
     } catch (e) {

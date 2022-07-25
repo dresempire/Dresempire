@@ -47,12 +47,12 @@ const Citizenship = () => {
       const proofs = MERKLE[mintRound].proofs.find(
         p => p.address.toLowerCase() === account.toLowerCase()
       );
-      if (!proofs) {
-        alert("Not whitelisted");
-        return;
-      }
+      // if (!proofs) {
+      //   alert("Not whitelisted");
+      //   return;
+      // }
       const proof = proofs.proofs.split(",");
-      const tx = await contract.mint(proof, { value: mintFee });
+      const tx = await contract.mint([], { value: mintFee });
       await tx.wait();
     } catch (e) {
       alert("Mint failed");

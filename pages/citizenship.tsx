@@ -72,30 +72,9 @@ const Citizenship = () => {
           <LineDivider widthClass='w-60' bgClass='bg-gradient' />
           <div className='mt-16 grid grid-cols-2 gap-12'>
             <div>
-              <h2 className='text-white text-2xl font-extrabold'>OG</h2>
+              <h2 className='text-white text-2xl font-extrabold'>PUBLIC</h2>
               <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.36</h2>
-                <Image src={EthereumIcon} width={16} height={20} />
-              </div>
-            </div>
-            <div>
-              <h2 className='text-white text-2xl font-extrabold'>WHITELIST</h2>
-              <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.5</h2>
-                <Image src={EthereumIcon} width={16} height={20} />
-              </div>
-            </div>
-            <div>
-              <h2 className='text-white text-2xl font-extrabold'>EARLY bird</h2>
-              <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.43</h2>
-                <Image src={EthereumIcon} width={16} height={20} />
-              </div>
-            </div>
-            <div>
-              <h2 className='text-white text-2xl font-extrabold'>WAITLIST</h2>
-              <div className='mt-3 flex gap-2'>
-                <h2 className='text-third font-extrabold'>0.5</h2>
+                <h2 className='text-third font-extrabold'>0.4</h2>
                 <Image src={EthereumIcon} width={16} height={20} />
               </div>
             </div>

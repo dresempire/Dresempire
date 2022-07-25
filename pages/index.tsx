@@ -13,6 +13,7 @@ import Logo from "../public/assets/images/logo_big.png";
 import CitizenShipPass from "../public/assets/images/citizenship.png";
 import VIPPass from "../public/assets/images/vip.png";
 import { Button } from "components/Button";
+import EthereumIcon from "../public/assets/images/ethereum.png";
 
 const Home = () => {
   const router = useRouter();
@@ -194,13 +195,17 @@ const Home = () => {
                   onClick={() => router.push("citizenship")}
                 />
                 <div className='mt-5 text-center text-white font-extrabold text-base leading-9'>
-                  OG MINT
+                  PUBLIC
                 </div>
                 <div className='text-center text-white font-extrabold text-base leading-9'>
                   07/22/22 9:00:00
                 </div>
-                <div className='text-center text-third font-extrabold text-base leading-9'>
-                  OG MINT
+                <div className='text-center text-third font-extrabold text-base leading-9 flex items-center'>
+                  PUBLIC &nbsp;
+                  <div className='flex gap-2'>
+                    <h2 className='text-third font-extrabold'>0.4</h2>
+                    <Image src={EthereumIcon} width={16} height={26} />
+                  </div>
                 </div>
               </div>
               <div className='flex flex-col items-center justify-center'>

@@ -74,6 +74,13 @@
   },
   {
     "inputs": [],
+    "name": "TEAM_ROOT",
+    "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "VIP_ROOT",
     "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
     "stateMutability": "view",
@@ -113,6 +120,20 @@
     "inputs": [],
     "name": "getMerkleRoot",
     "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "isOGAndEarlyMint",
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "isPublicMint",
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
     "stateMutability": "view",
     "type": "function"
   },
@@ -167,6 +188,13 @@
     "type": "function"
   },
   {
+    "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "name": "participants",
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "pause",
     "outputs": [],
@@ -198,16 +226,7 @@
   },
   {
     "inputs": [
-      { "internalType": "bytes32", "name": "_earlyRoot", "type": "bytes32" }
-    ],
-    "name": "setEarlyRoot",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      { "internalType": "bytes32", "name": "_ogRoot", "type": "bytes32" }
+      { "internalType": "bytes32", "name": "_root", "type": "bytes32" }
     ],
     "name": "setOGRoot",
     "outputs": [],
@@ -216,7 +235,16 @@
   },
   {
     "inputs": [
-      { "internalType": "bytes32", "name": "_vipRoot", "type": "bytes32" }
+      { "internalType": "bytes32", "name": "_root", "type": "bytes32" }
+    ],
+    "name": "setTeamRoot",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "bytes32", "name": "_root", "type": "bytes32" }
     ],
     "name": "setVIPRoot",
     "outputs": [],
@@ -225,7 +253,7 @@
   },
   {
     "inputs": [
-      { "internalType": "bytes32", "name": "_waitlistRoot", "type": "bytes32" }
+      { "internalType": "bytes32", "name": "_root", "type": "bytes32" }
     ],
     "name": "setWaitlistRoot",
     "outputs": [],
@@ -234,7 +262,7 @@
   },
   {
     "inputs": [
-      { "internalType": "bytes32", "name": "_whitelistRoot", "type": "bytes32" }
+      { "internalType": "bytes32", "name": "_root", "type": "bytes32" }
     ],
     "name": "setWhitelistRoot",
     "outputs": [],
@@ -249,6 +277,8 @@
         "type": "uint8"
       },
       { "internalType": "bool", "name": "_isReservedMint", "type": "bool" },
+      { "internalType": "bool", "name": "_isOGAndEarlyMint", "type": "bool" },
+      { "internalType": "bool", "name": "_isPublicMint", "type": "bool" },
       { "internalType": "uint256", "name": "_mintingFee", "type": "uint256" }
     ],
     "name": "toggleRound",
